@@ -96,7 +96,7 @@ Confusion matrix
 Country classification distribution
 
 
-##⚙️ How to Run
+## ⚙️ How to Run
 
 1. Clone this repository:
 git clone https://github.com/yourusername/energy-audit-decision-tree.git
@@ -109,7 +109,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 python energy_audit_decision_tree.py
 📄 Note: Make sure owid-energy-data.csv is in the same folder as the script.
 
-##✅ Dependencies
+## ✅ Dependencies
 - pandas
 - numpy
 - matplotlib
@@ -117,16 +117,16 @@ python energy_audit_decision_tree.py
 - scikit-learn
 
 
-##🧠 Future Improvements
+## 🧠 Future Improvements
 - Include data from multiple years (not just 2020).
 - Handle class imbalance by synthetic data generation or resampling.
 - Add more features like CO₂ emissions, renewable energy usage, etc.
 - Try other models (Random Forest, Gradient Boosting, etc.)
 
-##🤝 Contributions
+## 🤝 Contributions
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-##🌍 Author
+## 🌍 Author
 Qonita Qotrunnada
 Data Science, Front-end, & IoT Enthusiast
 📧 [YourEmail@example.com]
