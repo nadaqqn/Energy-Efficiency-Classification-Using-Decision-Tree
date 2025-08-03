@@ -69,7 +69,7 @@ cd energy-audit-decision-tree
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 3. Run the notebook or script:
-python energy_audit_decision_tree.py
+python "python_energy audit decision tree.py"
 📄 Note: Make sure owid-energy-data.csv is in the same folder as the script.
 
 ## ✅ Dependencies
