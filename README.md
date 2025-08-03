@@ -95,68 +95,39 @@ Confusion matrix
 
 Country classification distribution
 
-</details> <br>
-⚙️ How to Run
-Clone this repository:
 
-bash
-Copy
-Edit
+##⚙️ How to Run
+
+1. Clone this repository:
 git clone https://github.com/yourusername/energy-audit-decision-tree.git
 cd energy-audit-decision-tree
-Install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the notebook or script:
+2. Install dependencies:
+pip install pandas numpy matplotlib seaborn scikit-learn
 
-bash
-Copy
-Edit
+3. Run the notebook or script:
 python energy_audit_decision_tree.py
 📄 Note: Make sure owid-energy-data.csv is in the same folder as the script.
 
-<br>
-✅ Dependencies
-pandas
+##✅ Dependencies
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
 
-numpy
 
-matplotlib
+##🧠 Future Improvements
+- Include data from multiple years (not just 2020).
+- Handle class imbalance by synthetic data generation or resampling.
+- Add more features like CO₂ emissions, renewable energy usage, etc.
+- Try other models (Random Forest, Gradient Boosting, etc.)
 
-seaborn
-
-scikit-learn
-
-You can install all dependencies via:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-<br>
-🧠 Future Improvements
-Include data from multiple years (not just 2020).
-
-Handle class imbalance by synthetic data generation or resampling.
-
-Add more features like CO₂ emissions, renewable energy usage, etc.
-
-Try other models (Random Forest, Gradient Boosting, etc.)
-
-<br>
-📜 License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-<br>
-🤝 Contributions
+##🤝 Contributions
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-<br>
-🌍 Author
+##🌍 Author
 Qonita Qotrunnada
-Data Science & IoT Enthusiast
+Data Science, Front-end, & IoT Enthusiast
 📧 [YourEmail@example.com]
 🔗 LinkedIn • GitHub
